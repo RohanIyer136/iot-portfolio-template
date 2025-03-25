@@ -55,7 +55,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
   Serial.print("The following: ");
 
 // update message
-  super_message[0] = 'A'; // 将第一个字符设为 A
+  super_message[0] = 'A'; 
   Serial.println(super_message);
 
   // Switch on the LED if an 1 was received as first character
